@@ -1,0 +1,13 @@
+
+**Class Component (類別元件):**
+
+- 使用 ES6 語法來實作物件導向的 class component。
+- 由於 this 指向的關係，state 和 props 會拿到最新的結果，但是會較不易於進行 callback 操作。
+- 提供許多 lifecycle methods 使用，方便管理較複雜的 component 狀態。
+
+**Function Component (函式元件):**
+
+- 透過閉包的形式來管理狀態的 function component。
+- 把許多 methods 都寫在 function 中，自己本身就像是 render function，較容易抽出共同邏輯，或是進行模組化測試。
+- 生命週期的方法，是以 useEffect 來決定 render 要做的事情。
+
