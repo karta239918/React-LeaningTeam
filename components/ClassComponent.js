@@ -2,18 +2,9 @@
 
 import React, { Component } from "react"
 
-// export default class ClassComponent extends React.Component {
-
 export default class ClassComponent extends Component {
   //# 寫法是 ES6 Class .
   //# 會使用 reander(){} 來渲染出頁面. && 要多加入 Component .
-
-  //   constructor( ) {
-  //     super( )
-  //     this.XXX = {
-
-  //     }
-  // }
 
   //* step 1
   constructor(props) {
