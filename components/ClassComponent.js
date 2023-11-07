@@ -4,7 +4,7 @@ import React, { Component } from "react"
 
 export default class ClassComponent extends Component {
   //# 寫法是 ES6 Class .
-  //# 會使用 reander(){} 來渲染出頁面. && 要多加入 Component .
+  //# 會使用 render(){} 來渲染出頁面. && 要多加入 Component .
 
   //* step 1
   constructor(props) {
